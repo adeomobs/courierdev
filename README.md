@@ -1,2 +1,4 @@
 # courierdev
 Courier Application with tracking details saved in a mysql DB
+
+This is a sample courier website which saves tracking details in a mysql database with tables and then displays information from the database when it is requested on the gui. The frontend is built with HTML, CSS & Javascript. It uses PHP to talk to the database, and we use Ansible to setup the server configuration and install dependencies required to successfully host and run the application. Jenkins is used to integrate the code into the the test server which will be a virtual machine on the same server and selenium is used to test the code on the test server before it is moved to production server where it is live. Nagios tool would also be used for continous testing of the application and vault would be required to save and store all the passwords to connect to the DB. All scripts would be made available.
