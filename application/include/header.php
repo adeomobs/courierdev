@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> <?php if ($page == 2){echo 'Parcel Select | ';} else if($page == 3){echo 'Delux Courier Economy & Standard International | ';} else if($page == 4){echo 'Delux Courier Plus | ';} else if($page == 5){echo 'USPS Canada DDP | ';} else if($page == 6){echo 'Delux Courier Returns | ';} else if($page == 7){echo 'Track a Package | ';} else if($page == 8){echo 'FAQs | ';} else if($page == 9){echo 'About Us | ';} else if($page == 10){echo 'Contact Us | ';} ?>Delux Courier
+        <title> <?php if ($page == 2){echo 'Parcel Select | ';} else if($page == 3){echo 'Delux Courier Economy & Standard International | ';} else if($page == 4){echo 'Delux Courier Plus | ';} else if($page == 5){echo 'USPS Canada DDP | ';} else if($page == 6){echo 'Delux Courier Returns | ';} else if($page == 7){echo 'Track a Package | ';} else if($page == 8){echo 'FAQs | ';} else if($page == 9){echo 'About Us | ';} else if($page == 10){echo 'Contact Us | ';} else if($page == 11){echo 'NGO | ';} ?>Delux Courier
         </title>
     
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -17,25 +17,6 @@
                     <a href="https://deluxcourier.com"><img src="assets/images/log.png" alt="Delux Courier Services" /></a>
                 </div>
                 <div class="menu">
-                    <!--<ul>
-                        <li>Home</li>
-                        <li onmouseover= 'display();' onmouseout= 'unDisplay();'>Domestic Shipping
-                            <ul class="sub-menu" id="sub-menu">
-                                <li><a href="#">Parcel Select</a></li>
-                                <li><a href="#">Parcel Select</a></li>
-                                <li style="border-bottom: none;">Parcel Select</li>
-                            </ul>
-                        </li>
-                        <li onmouseover= 'display();' onmouseout= 'unDisplay();'>International Shipping
-                            <ul class="sub-menu" id="sub-menu">
-                                <li><a href="#">Parcel Select1</a></li>
-                                <li><a href="#">Parcel Select2</a></li>
-                                <li style="border-bottom: none;">Parcel Select</li>
-                            </ul>
-                        </li>
-                        <li>Track Package</li>
-                        <li>Help</li>
-                    </ul>-->
                     <div class="navbar">
                         <a href="index.php" class="<?php if ($page == 1) echo ' active'; ?>">Home</a>
                         <div class="dropdown">
@@ -76,38 +57,6 @@
                         </div> 
                         <a href="contact.php" class="<?php if ($page == 10) echo ' active'; ?>">Contact us</a>
                     </div>
-
-                    <!--<ul>
-                        <li id="show-nav" class="dropbtn">
-
-                            <div id="dropdown" onClick="myFunction(this)">Menu Name</div>
-
-                            <div id="myDropdown" class="dropdown-content">
-
-                                <a href="#option1">Option 1</a>
-                                <a href="#option2">Option 2</a>
-                                <a href="#option3" style="border-bottom: none;">Option 3</a>
-
-                            </div>
-
-                        </li>
-
-                        <li id="show-nav" class="dropbtn">
-
-                            <div id="dropdown" onClick="myFunction(this)">Menu Name</div>
-
-                            <div id="myDropdown" class="dropdown-content">
-
-                                <a href="#option1">Option 1</a>
-                                <a href="#option2">Option 2</a>
-                                <a href="#option3" style="border-bottom: none;">Option 3</a>
-
-                            </div>
-
-                        </li>
-                        <li>Track Package</li>
-                        <li>Help</li>
-                    </ul>-->
                 </div>
             </nav>
         </header>
